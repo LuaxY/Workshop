@@ -86,8 +86,8 @@
     // Formstone Background - Video Background Settings
     $("header.video").background({
         source: {
-            poster: "assets/img/bg-mobile-fallback.jpg",
-            mp4: "assets/mp4/camera.mp4"
+            poster: "assets/img/bg-accueil-filtre.jpg",
+            mp4: "assets/img/daily/logo.mov"
         }
     });
 
@@ -150,7 +150,7 @@ $(document).ready(function() {
     if (isPhoneDevice) {
         //mobile
     } else {
-        //desktop               
+        //desktop
         // Initialize WOW.js
         wow = new WOW({
             offset: 50
